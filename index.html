@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="author" content="Renald Lester M. Lorenzana">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ilocos Sur Polytechnic State College - Tagudin Campus provides quality education in Ilocos Sur, offering various courses and programs to empower students for their future careers.">
-    <title>Ilocos Sur Polytechnic State College - Tagudin Campus | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ilocos Sur Polytechnic State College - Home | ISPSC Tagudin</title>
+    <meta name="description" content="Ilocos Sur Polytechnic State College (ISPSC) Tagudin Campus offers quality education, scholarships, and admission procedures for students in the Philippines.">
     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
@@ -20,12 +20,10 @@
             font-size: 16px;
             border: none;
         }
-
         .dropdown {
             position: relative;
             display: inline-block;
         }
-
         .dropdown-content {
             display: none;
             position: absolute;
@@ -35,44 +33,34 @@
             z-index: 1;
             text-align: center;
         }
-
         .dropdown-content a {
             color: yellow;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
-
         .dropdown-content a:hover {
             background-color: white;
         }
-
         .dropdown:hover .dropdown-content {
             display: block;
         }
-
         .dropdown:hover .dropbtn {
             background-color: maroon;
         }
     </style>
     <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "CollegeOrUniversity",
         "name": "Ilocos Sur Polytechnic State College",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Quirino, Tagudin",
-            "addressLocality": "Ilocos Sur",
+            "streetAddress": "Quirino, Tagudin, Ilocos Sur",
             "addressCountry": "PH"
         },
-        "url": "https://ispsc.edu.ph",
-        "logo": "img/ispsc_logo.png",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "Customer Service",
-            "telephone": "+1-123-456-7890"
-        }
+        "email": "info@ispsc.edu",
+        "telephone": "+1-123-456-7890"
     }
     </script>
 </head>
@@ -81,7 +69,7 @@
 
     <header class="header">
         <div class="logo">
-            <img src="img/ispsc_logo.png" alt="ISPSC Logo - Ilocos Sur Polytechnic State College">
+            <img src="img/ispsc_logo.png" alt="Ilocos Sur Polytechnic State College Logo">
         </div>
         <div class="header__text">
             <h1>Ilocos Sur Polytechnic State College</h1>
@@ -95,9 +83,9 @@
             <div class="dropdown">
                 <button class="dropbtn">Admission</button>
                 <div class="dropdown-content">
-                    <a href="requirements.html">Requirements & Procedures</a>
-                    <a href="scholarships.html">Scholarships</a>
-                    <a href="schedulefees.html">Schedule of Fees</a>
+                    <a href="admission-requirements.html">Requirements & Procedures</a>
+                    <a href="scholarships-and-grants.html">Scholarships</a>
+                    <a href="schedule-of-fees.html">Schedule of Fees</a>
                 </div>
             </div>
             <li><a href="contacts.html">Contacts</a></li>
@@ -109,7 +97,7 @@
           <input type="radio" name="radio-buttons" id="img-1" checked />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="img/3-Story Building-LHS.jpg" alt="3-Story Building at ISPSC">
+              <img src="img/3-Story Building-LHS.jpg" alt="3-Story Building at ISPSC Campus">
             </div>
             <div class="carousel-controls">
               <label for="img-2" class="prev-slide">
@@ -123,7 +111,7 @@
           <input type="radio" name="radio-buttons" id="img-2" />
           <li class="slide-container">
             <div class="slide-image">
-              <img src="img/7-Story Building.jpg" alt="7-Story Building at ISPSC">
+              <img src="img/7-Story Building.jpg" alt="7-Story Building at ISPSC Campus">
             </div>
             <div class="carousel-controls">
               <label for="img-1" class="prev-slide">
@@ -134,6 +122,10 @@
               </label>
             </div>
           </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+          </div>
         </ul>
     </div>
 
@@ -141,13 +133,13 @@
         <div class="heading">
             <h2>Vision</h2>
             <div class="vision">
-                <p class="p_text">A vibrant and nurturing Polytechnic Service College for transforming lives and communities.</p>
+                <p>A vibrant and nurturing Polytechnic Service College for transforming lives and communities.</p>
             </div>
         </div>
         <div class="heading">
             <h2>Mission</h2>
             <div class="mission">
-                <p class="p_text">To improve the lives of people and communities through quality instruction, innovations, productivity initiatives, environment and industry-feasible technologies, resource mobilization and transformation outreach programs and services.</p>
+                <p>To improve the lives of people and communities through quality instruction, innovations, productivity initiatives, environment and industry-feasible technologies, resource mobilization, and transformation outreach programs and services.</p>
             </div>
         </div>
     </div>
@@ -163,6 +155,7 @@
             <p><a href="mailto:ssctagudin@gmail.com">ssctagudin@gmail.com</a></p>
         </div>
     </footer>
+
 </body>
 
 </html>
